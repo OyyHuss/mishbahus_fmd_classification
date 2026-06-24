@@ -953,11 +953,11 @@ with col_m2:
         <table class="model-table">
             <tr>
                 <td class="key">Akurasi Testing</td>
-                <td class="value" style="color:#00A3FF;">97.87%</td>
+                <td class="value" style="color:#00A3FF;">95.74%</td>
             </tr>
             <tr>
                 <td class="key">Recall PMK</td>
-                <td class="value" style="color:#00FFA3;">100%</td>
+                <td class="value" style="color:#00FFA3;">96%</td>
             </tr>
             <tr>
                 <td class="key">Precision PMK</td>
@@ -965,7 +965,7 @@ with col_m2:
             </tr>
             <tr>
                 <td class="key">F1-Score PMK</td>
-                <td class="value">98%</td>
+                <td class="value">96%</td>
             </tr>
             <tr>
                 <td class="key">Dataset Training</td>
@@ -989,8 +989,8 @@ border-radius:14px;padding:20px 30px;text-align:center;">
     <div style="font-size:13px;color:#6B80A0;line-height:1.8;">
         <span style="color:#FF4560;font-weight:600;">Sistem Prediksi PMK</span> —
         VGG19 + Triplet Attention ·
-        Akurasi: <span style="color:#00A3FF;">97.87%</span> ·
-        Recall PMK: <span style="color:#00FFA3;">100%</span>
+        Akurasi: <span style="color:#00A3FF;">95.74%</span> ·
+        Recall PMK: <span style="color:#00FFA3;">96%</span>
     </div>
 </div>
 """, unsafe_allow_html=True)
