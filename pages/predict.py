@@ -589,7 +589,7 @@ st.markdown("""
     <div class="page-desc">
         Unggah citra sapi untuk diklasifikasikan secara otomatis
         menggunakan model VGG19 + Triplet Attention yang telah dilatih
-        dengan dataset 310 citra dan mencapai akurasi 97.87%.
+        dengan dataset 310 citra dan mencapai akurasi 95.74%.
     </div>
 </div>
 """, unsafe_allow_html=True)
