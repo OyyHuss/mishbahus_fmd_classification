@@ -481,7 +481,7 @@ st.markdown("""
         <span class="hero-tag">👁️ Triplet Attention</span>
         <span class="hero-tag">🖼️ CLAHE Enhancement</span>
         <span class="hero-tag">📊 308 Citra Dataset</span>
-        <span class="hero-tag">⚡ 97.87% Accuracy</span>
+        <span class="hero-tag">⚡ 95.74% Accuracy</span>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -493,12 +493,12 @@ st.markdown("""
 <div class="metric-grid">
     <div class="metric-card blue">
         <div class="metric-icon">🎯</div>
-        <div class="metric-value">97.87%</div>
+        <div class="metric-value">95.74%</div>
         <div class="metric-label">Akurasi Pengujian</div>
     </div>
     <div class="metric-card green">
         <div class="metric-icon">🔍</div>
-        <div class="metric-value">100%</div>
+        <div class="metric-value">96%</div>
         <div class="metric-label">Recall PMK</div>
     </div>
     <div class="metric-card purple">
@@ -598,11 +598,11 @@ st.markdown("""
         <div class="info-card-title">📊 Hasil Penelitian</div>
         <div class="info-card-body">
             Model VGG19 + Triplet Attention berhasil mencapai
-            <span class="highlight-text">Akurasi 97.87%</span> dengan
-            <span class="highlight-text">Recall PMK 100%</span> pada 47 citra data uji.
-            Dibandingkan VGG19 Baseline, model yang diusulkan menunjukkan
-            konvergensi lebih cepat pada epoch ke-26 vs epoch ke-29,
-            serta validation loss lebih rendah (0.1649 vs 0.1820),
+            <span class="highlight-text">Akurasi 95.74%</span> dengan
+            <span class="highlight-text">Recall PMK 96%</span> pada 47 citra data uji.
+            Dibandingkan VGG19 Baseline (Akurasi 93.62%), model yang diusulkan menunjukkan
+            performa lebih unggul pada seluruh metrik evaluasi, serta Validation Accuracy
+            terbaik yang lebih tinggi (89.13% vs 86.96%),
             membuktikan kontribusi positif mekanisme Triplet Attention.
         </div>
     </div>
@@ -685,8 +685,8 @@ st.markdown("""
         <span>Sistem Klasifikasi PMK pada Sapi</span> menggunakan VGG19 + Triplet Attention<br>
         Skripsi — Teknik Informatika &nbsp;·&nbsp;
         Dataset: <span>308 Citra</span> &nbsp;·&nbsp;
-        Akurasi: <span>97.87%</span> &nbsp;·&nbsp;
-        Recall PMK: <span>100%</span>
+        Akurasi: <span>95.74%</span> &nbsp;·&nbsp;
+        Recall PMK: <span>96%</span>
     </div>
 </div>
 """, unsafe_allow_html=True)
