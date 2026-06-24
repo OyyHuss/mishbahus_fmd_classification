@@ -440,7 +440,7 @@ def load_model():
     from huggingface_hub import hf_hub_download
 
     model_path = hf_hub_download(
-        repo_id="Mishbahus/FMD_Class_VGG_TA",
+        repo_id="Mishbahus/fmd_classification_vgg19TA",
         filename="best_model_vgg+triplet.keras",
         local_dir="/tmp/model"
     )
