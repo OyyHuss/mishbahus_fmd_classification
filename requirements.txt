@@ -1,0 +1,9 @@
+streamlit
+tensorflow-cpu==2.16.1
+opencv-python-headless
+numpy
+Pillow
+matplotlib
+plotly
+pandas
+huggingface_hub
